@@ -12,8 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('panel', 'AdminController@index');
 
 Route::group(['prefix'=>'protected', 'middleware'=>['auth']], function () {
 	Route::resource('admin', 'AdminController');
