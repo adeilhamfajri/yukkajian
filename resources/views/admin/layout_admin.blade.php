@@ -6,9 +6,11 @@
 </head>
 <body class="nav-md">
     <div class="container body">
-      <div class="main_container">
-		@yield('content')
-		@include('admin.include.footer')
-		@include('admin.include.foot')
+    	<div class="main_container">
+	@yield('content')
+		</div>
+	</div>
+	@include('admin.include.footer')
+	@include('admin.include.foot')
 </body>
 </html>

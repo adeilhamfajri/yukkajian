@@ -2,5 +2,5 @@
 @section('content')
 	@include('admin.panel')
 	@include('admin.top_navigation')
-	@include('admin.home')
+	@include('admin.kajian.data_kajian')
 @endsection

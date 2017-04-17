@@ -8,3 +8,13 @@
 {!! Html::style(asset('css_admin/starrr.css')) !!}
 {!! Html::style(asset('css_admin/daterangepicker.css')) !!}
 {!! Html::style(asset('css_admin/custom.min.css')) !!}
+
+
+{!! Html::style(asset('css_admin/dataTables.bootstrap.min.css')) !!}
+{!! Html::style(asset('css_admin/buttons.bootstrap.min.css')) !!}
+{!! Html::style(asset('css_admin/fixedHeader.bootstrap.min.css')) !!}
+{!! Html::style(asset('css_admin/responsive.bootstrap.min.css')) !!}
+{!! Html::style(asset('css_admin/scroller.bootstrap.min.css')) !!}
+
+{!! Html::style(asset('css_admin/normalize.css')) !!}
+{!! Html::style(asset('css_admin/cropper.min.css')) !!}

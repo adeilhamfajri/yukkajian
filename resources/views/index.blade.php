@@ -4,10 +4,10 @@
 	    <div class="overlay overlay-5 alpha-8">
 	        <div class="container">
 	            <div class="intro">
-	                <img class="logo" src="img/sayuronline.png" alt="Sayur Online" style="height: 105px; width: 135px;" />
+	                <img class="logo" src="{{ asset('img/logo_putih.png') }}" alt="Sayur Online" style="height: 105px; width: 135px;" />
 	                <span class="p-p"></span>
 	            </div>
-	            <p>&copy; 2017 | <i>Code with Love</i> <span class="new-line bold"><a href="http://skyline.co.id">Yuk Kajian !</a></span></p>
+	            <p>&copy; 2017 | <i>Code with Love</i> <span class="new-line bold"><a href="http://yukkajian.id">Yuk Kajian !</a></span></p>
 	        </div>
 	    </div>
 	</div>
@@ -21,11 +21,6 @@
 	                <span class="icon-bar"></span>
 	                <span class="icon-bar"></span>
 	            </button>
-
-	            <a href="#main-header" class="navbar-brand">
-	                <img class="logo" src="img/sayuronline.png" alt="Sayur Online" />
-	                <img class="logo-light" src="img/sayuronline.png" alt="Sayur Online" />
-	            </a>
 	        </div>
 
 	        <div id="navbar" class="navbar-collapse collapse">
@@ -74,7 +69,7 @@
                     </div>
                 </div>
                 <div style="margin-top: 10%; margin-left: 10%">    
-                    <img src="img/mockup/mockup_phone.png" style="width: 55%" height="55%">     
+                    <img src="img/mockup.png" style="width: 55%" height="55%">     
                 </div>        
             </div>
         </div>
@@ -87,14 +82,14 @@
         <div class="row row-responsive">
             <div class="col col-md-5">
                 <figure class="mockup" data-bottom-top="transform[swing]: translateX(-356px);" data-center-top="transform: translateX(0px);">
-                    <img src="img/mockup/overview_sayuronline.png" alt="" style="width: 120%; height: 200%">
+                    <img src="img/mockup2.png" alt="" style="width: 120%; height: 200%">
                 </figure>
             </div>
 
             <div class="col col-md-7">
                 <div class="section-heading">
                     <h2 class="line left"><span class="bold">Overview</span></h2>
-                    <p><span class="bold" style="color: #ff0066">Yuk <span style="color: #ff0066"> Kajian !</span></span> merupakan sebuah aplikasi android yang akan memudahkan tatkala mencari info kajian islam di seluruh wilayah Indonesia !</p>
+                    <p><span class="bold" style="color: #d6b01b">Yuk <span style="color: #d6b01b"> Kajian !</span></span> merupakan sebuah aplikasi android yang akan memudahkan tatkala mencari info kajian islam di seluruh wilayah Indonesia !</p>
                 </div>
 
                 <div class="region-half">
@@ -161,7 +156,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading text-center">
-                    <h2>Cara Menggunakan <span class="bold" style="color: #ff0066">Yuk Kajian !</span> ?</h2>
+                    <h2>Cara Menggunakan <span class="bold" style="color: #d6b01b">Yuk Kajian !</span> ?</h2>
                     <p>Berikut <span class="bold">5 langkah sederhana</span> terkait bagaimana mengoperasikan apps Yuk Kajian !</p>
                 </div>
 
@@ -184,21 +179,21 @@
                         <li>
                             <div class="step">
                                 <i class="fa fa-map-marker"></i>
-                                <span class="step-name">Pilih Pasar</span>
+                                <span class="step-name">Pilih Tanggal</span>
                                 <span class="step-number">3</span>
                             </div>
                         </li>
                         <li>
                             <div class="step">
                                 <i class="fa fa-list-ul"></i>
-                                <span class="step-name">Pilih Item</span>
+                                <span class="step-name">Pilih Kajian</span>
                                 <span class="step-number">4</span>
                             </div>
                         </li>
                         <li>
                             <div class="step">
                                 <i class="fa fa-shopping-cart"></i>
-                                <span class="step-name">Order</span>
+                                <span class="step-name">Join</span>
                                 <span class="step-number">5</span>
                             </div>
                         </li>
@@ -209,7 +204,7 @@
                             <li>
                                 <div class="process-text" style="height: 40%">
                                     <h3>1. Daftar</h3>
-                                    <p>Lakukan pendaftaran dengan memilih menu <b>Daftar</b>, agar dapat menikmati layanan service App Sayur Online</p>
+                                    <p>Lakukan pendaftaran dengan memilih menu <b>Daftar</b>, agar dapat menikmati layanan service App Yuk Kajian !</p>
                                 </div>
                                 <figure class="mockup full-width"><img src="img/section/process/1.png" alt="" style="width: 75%; height: 100%"/></figure>
                             </li>
@@ -222,22 +217,22 @@
                             </li>
                             <li>
                                 <div class="process-text" style="height: 40%">
-                                    <h3>3. Pilih Pasar</h3>
-                                    <p>Pilih pasar yang anda kehendaki.</p>
+                                    <h3>3. Pilih Tanggal</h3>
+                                    <p>Pilih tanggal yang anda kehendaki.</p>
                                 </div>
                                 <figure class="mockup full-width"><img src="img/section/process/3.png" alt=""style="width: 75%; height: 100%" /></figure>
                             </li>
                             <li>
                                 <div class="process-text" style="height: 40%">
-                                    <h3>4. Pilih Item</h3>
-                                    <p>Tentukan item apa saja yang ingin anda pesan.</p>
+                                    <h3>4. Pilih Kajian</h3>
+                                    <p>Tentukan kajian apa saja yang ingin anda pesan.</p>
                                 </div>
                                 <figure class="mockup full-width"><img src="img/section/process/4.png" alt="" style="width: 75%; height: 100%" /></figure>
                             </li>
                             <li>
                                 <div class="process-text" style="height: 40%">
-                                    <h3>5. Order</h3>
-                                    <p>Setelah dirasa cukup, lakukan proses order.</p>
+                                    <h3>5. Join</h3>
+                                    <p>Setelah dirasa cukup, lakukan proses join.</p>
                                 </div>
                                 <figure class="mockup full-width"><img src="img/section/process/5.png" alt="" style="width: 75%; height: 100%" /></figure>
                             </li>
@@ -283,7 +278,7 @@
 			<div class="row">
 				<div class="col col-sm-12">
 					<div class="section-heading text-center">
-						<h2 class="line"><span class="bold" style="color: #ff0066">Menemukan <i>Bugs</i> ?</span></h2>
+						<h2 class="line"><span class="bold" style="color: #d6b01b">Menemukan <i>Bugs</i> ?</span></h2>
 						<p>
 							<span class="bold" style="color: #ffffff">atau ada pertanyaan ?</span></br>
 							<span style="color: #ffffff">Kami sangat terbuka atas masukan dan pertanyaan.</span>

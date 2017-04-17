@@ -21,7 +21,7 @@
                     <ul class="list-unstyled list-icon list-icon-md">
                         <li>
                             <i class="fa-map-marker"></i>
-                            <span>Jl. Boroburu, A1-3, Kediri</span>
+                            <span>Teknik Informatika, ITS, Surabaya</span>
                         </li>
                         <li>
                             <i class="fa-phone"></i>
@@ -29,7 +29,7 @@
                         </li>
                         <li>
                             <i class="fa-envelope-o"></i>
-                            <span><a href="mailto:mail@yukkajian.com">mail@yukkajian.com</a></span>
+                            <span><a href="mailto:mail@yukkajian.com">mail@yukkajian.id</a></span>
                         </li>
                     </ul>
                 </div>
@@ -54,9 +54,7 @@
 				
 				<div class="col col-sm-2">
 				<br/><br/><br/><br/><br/>
-					<figure class="mockup logo">
-						<img src="img/sayuronline.png" alt="" style="height: 105px; width: 135px;">
-					</figure>
+		
 				</div>
 
             </div>
